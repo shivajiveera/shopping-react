@@ -18,14 +18,19 @@ function App() {
         src="https://tse1.mm.bing.net/th?id=OIP.zQV2tS49nOJ9ysFtBy7gfAHaIq&pid=Api&P=0"
         className="card-img-top"
         alt="..."
-        height="150px"/>
+        height="150px"/><div className='heart_1'>🤍</div>
         
         
          <div className="card-body">
-         <h5 className="card-title text ">card tittle</h5>
-         <p>white long dress. </p> ⭕ 🔘<br/>4.8/5★★★☆☆
+         <p><b>white long dress</b>. </p> ⭕ 🔘<br/>4.8/5★★★☆☆
          
          </div>
+         <div className="card-body_2">
+        <h6 className='dollor'>$5.99</h6>
+        </div>
+        <div>
+        <button className='Button'> Buy Now</button>
+        </div>
         </div>
         </div>
         </div>
@@ -37,16 +42,21 @@ function App() {
         src="https://cdn.walletmonitor.com/img/86ebe90c41b99ed9953c56abd1f1fb0a.jpg"
         className="card-img-top"
         alt="..."
-        height="150px"/>🤍
+        height="150px"/><div className='heart_2'>🤍</div>
           <div className="card-body">
-          <h5 className="card-title ">card tittle</h5>
           <p className="card-text">
-          Full Sleeve Denim Jacket
+          <b>Full Sleeve Denim Jacket</b>
           </p>⭕ 🔘<br/>4.8/5★★★☆☆
         
       
         
           </div>
+          <div className="card-body_2">
+          <h6 className='dollor'>$4.99</h6>
+        </div>
+        <div>
+        <button className='Button'> Buy Now</button>
+        </div>
         </div>
         </div>
         </div>
@@ -61,24 +71,39 @@ function App() {
         height="150px"/> 
          
         <div className="cart">
-        🤍
+        <div className='heart_3'>🤍</div>
         </div>
-
+        
 
 
 
         <div className="card-body">
-        <h5 className="card-tittle">Card tittle</h5>
-        <p className="card-text">Hush puls
+        <p className="card-text"><b>Hush puls</b>
         </p>⭕ 🔘<br/>4.8/5★★★☆☆
        
         </div>
+        <div className="card-body_2">
+        <h6 className='dollor'>$3.99</h6>
+        
+        </div>
+        <div>
+        <button className='Button'> Buy Now</button>
+        </div>
+
+        
+
+
         </div>
         </div>
         
         </div>
+        
         </div>
+        
         </div>
+        
+        
+        
     </React.Fragment>
   );
 }
